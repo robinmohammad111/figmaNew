@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 10px;
+}
+.table {
+    width: 100%;
+/* border: 2px solid darkgoldenrod ; */
+}
+.table , .table td , .table th {
+    padding: 10px;
+    border: 1px solid darkblue;
+    border-collapse: collapse;
+    /* background-color: aqua; */
+}
+/* .table td {
+    background-color: aqua;
+}
+.table:hover {
+    background-color: solid
+    forestgreen;
+} */
+thead {
+    background-color: blue;
+}
+tbody:hover {
+    background-color: bisque;
+}
